@@ -1,6 +1,6 @@
-## Source Code for Paper 'An Ablation Study for Classifying Shapes and Weights of Garments for Robotic Continuous Perception'
+Source Code for Paper 'An Ablation Study for Classifying Shapes and Weights of Garments for Robotic Continuous Perception'
 -----------------------------------------------
-## Description \
+## Description
 Step 1. Train a Feature Extractor Model\
 \
 In our paper, the first step is to train a feature extractor model without an LSTM, trainings of which can be found in Feature_Extractor_Shape.py (for shapes) and Feature_Extractor_Weight.py (for weights). A default learning rate has been set into 0.001 and a defalut epoch has been set into 36. After running the codes, a feature model called alexnet_shape_dict.pth or alexnet_weight_dict.pth can be obtained from the corresponding Feature_Extractor_Shape.py amd Feature_Extractor_Weight.py
